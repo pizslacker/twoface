@@ -9,7 +9,7 @@ We can exploit this to create a program that has an outward-facing "professional
 Here is the code for our emotionally unstable echo program.
 
 ### The Corporate Yes Man
-Let's mute the panic. In Linux/macOS (and modern Windows command prompts), stderr is technically stream number `2`. We can redirect stream `2` into a black hole (`/dev/null`).
+Let's mute the panic. In Linux/macOS (and modern Windows command prompts), `stderr` is technically stream number `2`. We can redirect stream `2` into a black hole (`/dev/null`).
 ```bash
 ./twoface 2> /dev/null
 ```
